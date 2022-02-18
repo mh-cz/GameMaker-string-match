@@ -1,22 +1,22 @@
 # GameMaker-string-match
 A string format checker for GMS2
 
-It works similarly to RegEx but it's nicer too look at(?)
+It works similarly to RegEx but it's nicer to look at(?)
 
-# SYNTAX
+# Syntax
 string_match(string, match, show_error)
-### 
 
+The match function has 3 options - Allowed/Not allowed characters, string length limits and character position checks
 ```
+<|...|> - Allowed characters
+<!|...|> - Not allowed characters
 
-```
+L(min-max) - Length limit
 
-Simple email validation:
+:(pos==<|...|>) - a char at this position must be equal to ...
+:(pos!=<|...|>) - a char at this position must not be equal to ...
 ```
-[<|a-zA-Z0-9.!#$%&+-/=?'_|{}-|>L(1-64):(1,n,<|.|>+1!=<|.|>)]$@$[<|a-zA-Z0-9-|>L(1-64):(1,n,<|-|>+1!=<|-|>)]$.$[<|a-zA-Z|>L(2-3)]
+And then there is a string splitter which basically splits one string into smaller ones
 ```
-
-Scary huh. Let's analyze it
-```
-
+$...$
 ```

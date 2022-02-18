@@ -6,7 +6,7 @@ It works similarly to RegEx but it's nicer to look at(?)
 # Syntax
 string_match(string, match, show_error)
 
-The match function has 3 options - Allowed/Not allowed characters, string length limits and character position checks
+The match function has 3 options - allowed/not allowed characters, string length limits and character position checks
 ```
 <|...|> - Allowed characters
 <!|...|> - Not allowed characters

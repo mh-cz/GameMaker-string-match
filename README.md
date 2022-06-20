@@ -20,3 +20,6 @@ And then there is a string splitter which basically splits one string into small
 ```
 $...$
 ```
+
+### cheat sheet from gmlscripts.com
+![img](https://i.imgur.com/txFF8nc.png)

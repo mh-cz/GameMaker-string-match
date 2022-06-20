@@ -1,7 +1,5 @@
 function string_match(str, match, show_err = false) {
-	
-	if is_undefined(show_err) show_err = false;
-	
+		
 	if str == "" or match == "" {
 		if show_err return "str_is_empty";
 		return false;

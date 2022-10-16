@@ -1,4 +1,5 @@
-# GameMaker-string-match
+# GameMaker-string-match (better version in making)
+
 A string format checker for GMS2
 
 It works similarly to RegEx but it's nicer to look at(?)

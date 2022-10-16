@@ -1,4 +1,4 @@
-# GameMaker-string-match (better version in making)
+# GameMaker-string-match (better version in development)
 
 A string format checker for GMS2
 

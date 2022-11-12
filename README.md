@@ -1,5 +1,10 @@
-# GameMaker-string-match (better version in development)
-
+# GameMaker-string-match - OUTDATED
+USE GMRE INSTEAD -> https://github.com/mh-cz/gmre
+  
+  
+  
+  
+  
 A string format checker for GMS2
 
 It works similarly to RegEx but it's nicer to look at(?)
